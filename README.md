@@ -41,8 +41,6 @@ Step 3: Have fun!
 - Function-based structure for clarity
 - Well documented for code updates
 
-        ---
-
 ### Requirements for Succesful Code Run
 - MATLAB (Online or Desktop)
 - Simple Game Engine (`simpleGameEngine.m` provided or pre-installed)
