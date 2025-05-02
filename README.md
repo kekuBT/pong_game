@@ -16,9 +16,9 @@ Step 2: Run `main.m` script.
 Step 3: Have fun!
 
 ### Menu Options:
-- **Game Mode: Choose between Signleplayer or Multiplayer.
-- **Level: Choose smartAI level (Only in Singleplayer).
-- **Score limit: Choose score points required to win.
+- Game Mode: Choose between Signleplayer or Multiplayer.
+- Level: Choose smartAI level (Only in Singleplayer).
+- Score limit: Choose score points required to win.
 
 ### How to play
 
