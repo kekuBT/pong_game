@@ -8,16 +8,12 @@ mutliplayer mode or playing againist smartAI, difficulty options and score
 limit options. The goal is to reach the selected score limit before your 
 opponent and it have fun doing it
 
-        ---
-
 ## User Manual
 
 ## Getting Started
 Step 1: Open `main.m` in MATLAB.
 Step 2: Run `main.m` script.
 Step 3: Have fun!
-
-        ---
 
 ### Menu Options:
 - **Game Mode: Choose between Signleplayer or Multiplayer.
@@ -37,8 +33,6 @@ Step 3: Have fun!
 - **ESC**
   - Quit the game anytime
 
-        ---
-
 ### Features
 - Menu options game mode
 - Difficulty settings: Casual or Tryhard
@@ -53,8 +47,6 @@ Step 3: Have fun!
 - MATLAB (Online or Desktop)
 - Simple Game Engine (`simpleGameEngine.m` provided or pre-installed)
 
-        ---
-
 ## Program Description For Developers
 
 ### Files Included
@@ -68,8 +60,6 @@ Step 3: Have fun!
 - 'drawScore.m' - Draws score on field
 - 'simpleGameEngine.m' - Handles sprite rendering, key inputs, game drid and more
 - 'retro_pack.png' - Sprite sheet used in the game
-
-        ---
 
 ### Key Variables Used:
 - backgroundID - Sprite ID used to draw blank background tiles
@@ -116,8 +106,6 @@ Step 3: Have fun!
 - topRightBar - Row indexes for top tile of right bar/paddle
 - wallID - Sprite ID used to draw walls
 
-        ---
-
 ### Simple Game Engine Commands Used:
 - drawScene() - Renders the figure
 - getappdata() - Saves user key input
@@ -125,8 +113,6 @@ Step 3: Have fun!
 - scene.my_figure.KeyPressFcn = @() - Assigns a key press function to keyboard input
 - setappdata() - Stores or clears the last key pressed
 - simpleGameEngine() - Initializes the SGE object
-
-        ---
 
 ## Final Algorithm Pseudocode
 
@@ -144,8 +130,6 @@ Step 3: Have fun!
     - pause to control framerate for consistency
 5. Loop until game is won or "ESC" key is pressed
 
-        ---
-
 ## Brief Discussions
 
 Throught the development of this game, we tested the game many many times.
@@ -159,8 +143,6 @@ obstacle we ran into is being able code smartAI bar/paddle, that took us
 more time than intended. Overall, our program's complexity and logics grew 
 with  the addition of levels menu, and modular structure. By separating 
 necessary  actions into functions helped us keep the code clean and clear.
-
-        ---
 
 ## Conclusion
 
